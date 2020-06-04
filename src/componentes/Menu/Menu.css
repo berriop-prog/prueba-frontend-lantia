@@ -1,0 +1,38 @@
+.menu {
+    width: 4.7%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    z-index: 100;
+}
+
+.menu-button {
+    height: 28%;
+    width: 100%;
+    background-color: #A6C236;
+}
+.menu-spacer{
+    height: 60%;
+    width: 60%;
+    background-color: #A6C236;
+    display: flex;
+}
+.spacer-dark{    
+    height: 100%;
+    width: 33%;
+    background-color: #0D2A4C;
+}
+
+.spacer-light{    
+    height: 100%;
+    width: 66%;
+    background-color: #68A7DD;
+}
+
+.menu-logo  {
+    height: 12%;
+    width: 100%;
+    background-color: #A6C236;
+}
+

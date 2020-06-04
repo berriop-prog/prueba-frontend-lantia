@@ -1,0 +1,42 @@
+.parrafo-inicial {
+  background-color: #fafafa;
+  margin: 1rem 0 0 4rem;
+  text-align: center;
+  border: none;
+}
+.parrafo-grand {
+  font-size: 16px;
+  margin: 50px;
+  text-align: justify;
+  line-height: 18px;
+}
+
+h4 {
+  color: white;
+  background-color: #1167b1;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 10px 50px;
+}
+
+.carta-uno {
+  font-size: 14px;
+  margin: 0 0 0 7rem;
+  padding: 0 0 2px;
+  text-align: justify;
+  line-height: 1.1rem;
+  background-color: lightblue;
+}
+
+.carta-dos {
+  font-size: 14px;
+  margin: 0 7rem 0 0;
+  padding: 0 0 2px;
+  text-align: justify;
+  line-height: 1.1rem;
+  background-color: lightgreen;
+}
+
+.table-referencia {
+  font-size: 14px;
+}
