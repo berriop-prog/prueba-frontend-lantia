@@ -26,13 +26,13 @@ class App extends Component {
   };
 
   goToNext = () => {
-    if (this.state.activePage <= 4) {
+    if (this.state.activePage < 4) {
       this.setState({ ...this.state, activePage: this.state.activePage + 1 });
     }
   };
 
   goToPrevious = () => {
-    if (this.state.activePage >= 1) {
+    if (this.state.activePage > 1) {
       this.setState({ ...this.state, activePage: this.state.activePage - 1 });
     }
   };
