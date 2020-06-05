@@ -3,9 +3,9 @@ import './PaginaUno.css';
 
 function PaginaUno() {
   return (
-    <div className="container parrafo-inicial">
-      <div className="card parrafo-grand">
-        <div className="card-body parrafo-grand">
+    <div className="container">
+      <div className="card">
+        <div className="card-body parrafo-card">
           <p>
             Vivamus in mauris vitae nunc pellentesque tincidunt et et massa.
             Aenean vitae elit et metus auctor lacinia. Suspendisse sollicitudin
@@ -25,7 +25,7 @@ function PaginaUno() {
         </div>
       </div>
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-lg-6">
           <div className="card carta-uno">
             <div className="card-body">
               <h4 className="card-title">Proin scelerisque quam</h4>

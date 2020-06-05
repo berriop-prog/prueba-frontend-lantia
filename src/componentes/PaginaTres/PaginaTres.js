@@ -7,9 +7,9 @@ function PaginaTres() {
       <div className="card">
         <img
           className="img-practica"
-          src="https://firebasestorage.googleapis.com/v0/b/pruebas-f9b47.appspot.com/o/95214.png?alt=media&token=22b19245-15e6-48b9-90b0-3f11fe2364e3"
+          src="https://firebasestorage.googleapis.com/v0/b/pruebas-f9b47.appspot.com/o/Anotaci%C3%B3n%202020-06-04%20111309.png?alt=media&token=c0f4bfc2-1239-48f8-927a-fbf928168de9"
         />
-        <div className="card-body">
+        <div className="card-body card-tres">
           <p>
             Orci varius natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Sed in dapibus felis. Sed vehicula, enim nec
@@ -42,7 +42,7 @@ function PaginaTres() {
           </ul>
 
           <a href="#" className="btn btn-primary">
-            Go somewhere
+            Iniciar
           </a>
         </div>
       </div>

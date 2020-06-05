@@ -1,18 +1,16 @@
 .pagina-tres {
   font-size: 16px;
   margin: 50px;
-  text-align: justify;
-  line-height: 20px;
-  margin: 3rem 0 0 7rem;
+  margin: 3rem 0 0 2rem;
   background-color: white;
 }
-
 .img-practica {
   background-color: white;
   width: 180px;
   height: 180px;
 }
-
-.card-list {
-    align-items: center;
+.card-tres{
+  text-align: left;
+  margin: 2rem 4rem ;  
+  line-height: 1.2rem;
 }

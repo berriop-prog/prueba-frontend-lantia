@@ -40,3 +40,41 @@ h4 {
 .table-referencia {
   font-size: 14px;
 }
+.container-actividad {
+  width: 1000px;
+  margin: 5rem 10rem;
+}
+.form-group {
+  align-items: center;
+  color: #0d2a4c;  
+  padding-bottom: 1.2rem;
+}
+
+label {
+  color: #0d2a4c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  margin: 2rem 0 0 0;
+}
+
+.number-form {
+  background-color: #CFE39B;
+  border-radius: 163px 163px 163px 163px;
+  text-align: center;
+}
+td { 
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 10px; 
+}
+th:empty {
+  border: 0;
+}

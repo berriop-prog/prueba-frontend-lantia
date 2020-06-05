@@ -1,42 +1,49 @@
-.parrafo-inicial {
-  background-color: #fafafa;
-  margin: 1rem 0 0 4rem;
+.container {
+  width: 100%;
   text-align: center;
-  border: none;
+  height: 7px;
 }
-.parrafo-grand {
+.parrafo-card{
   font-size: 16px;
-  margin: 50px;
   text-align: justify;
-  line-height: 18px;
+  margin: 5rem 2rem 3rem 6rem;
+  line-height: 1.2rem;
 }
 
 h4 {
   color: white;
   background-color: #1167b1;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 50px;
+  border-radius: 7px 7px 7px 7px;
 }
 
 .carta-uno {
-  font-size: 14px;
-  margin: 0 0 0 7rem;
-  padding: 0 0 2px;
-  text-align: justify;
-  line-height: 1.1rem;
-  background-color: lightblue;
-}
-
-.carta-dos {
+  width: 350px;
   font-size: 14px;
   margin: 0 7rem 0 0;
-  padding: 0 0 2px;
+  padding: 0 0 2px 0;
   text-align: justify;
   line-height: 1.1rem;
   background-color: lightgreen;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.carta-dos {
+  width: 350px;
+  margin: 0 7rem 0 0;
+  padding: 0 0 2px 0;
+  text-align: justify;
+  line-height: 1.1rem;
+  background-color: lightgreen;
+  border-radius: 25px 25px 25px 25px;
 }
 
 .table-referencia {
   font-size: 14px;
+  margin: 2rem;
+}
+.card-text{
+  margin: 1rem 1rem  0 1.5rem;
 }
