@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import TableRow from '../TableRow/TableRow';
-import './FormOne.css';
+import './FormThree.css';
 
-class FormOne extends Component {
+class FormThree extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,27 +23,27 @@ class FormOne extends Component {
     return (
       <React.Fragment>
         <TableRow
-          text="Planeación estrategica"
+          text="Identifica áreas"
           selectedOption={(value) => this.selectedOption('optionOne', value)}
         />
         <TableRow
-          text="Generación ideas"
+          text="Prioriza temáticas"
           selectedOption={(value) => this.selectedOption('optionTwo', value)}
         />
         <TableRow
-          text="Desarrollo producto"
+          text="Clasifica fuentes"
           selectedOption={(value) => this.selectedOption('optionThree', value)}
         />
         <TableRow
-          text="Nuevos marcadores"
+          text="Llama expertos"
           selectedOption={(value) => this.selectedOption('optionFour', value)}
         />
         <TableRow
-          text="Busqueda de clientes"
+          text="Presenta resultados"
           selectedOption={(value) => this.selectedOption('optionFive', value)}
         />
         <TableRow
-          text="Adquisión"
+          text="Documenta aprendizajes"
           selectedOption={(value) => this.selectedOption('optionSix', value)}
         />
       </React.Fragment>
@@ -51,4 +51,4 @@ class FormOne extends Component {
   }
 }
 
-export default FormOne;
+export default FormThree;

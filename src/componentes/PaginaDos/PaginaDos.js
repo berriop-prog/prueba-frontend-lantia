@@ -3,6 +3,7 @@ import './PaginaDos.css';
 
 function PaginaDos() {
   return (
+    
     <div className="row pagina-dos">
       <div className="col-sm-6">
         <div className="card ">
@@ -32,7 +33,7 @@ function PaginaDos() {
       <div className="col-sm-6">
         <div className="card img-dos">
           <div className="card-body">
-            <img className="img-body" src="https://firebasestorage.googleapis.com/v0/b/pruebas-f9b47.appspot.com/o/Anotaci%C3%B3n%202020-06-04%20111242.png?alt=media&token=b07a6205-ff9c-4973-b158-caa9485a8880"></img>
+            <img className="img-body" alt="#" src="https://firebasestorage.googleapis.com/v0/b/pruebas-f9b47.appspot.com/o/Anotaci%C3%B3n%202020-06-04%20111242.png?alt=media&token=b07a6205-ff9c-4973-b158-caa9485a8880"></img>
           </div>
         </div>
       </div>

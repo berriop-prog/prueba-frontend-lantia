@@ -24,6 +24,7 @@ function PaginaUno() {
           <p>Suspendisse id massa quis justo maximus rhoncus at in lacus.</p>
         </div>
       </div>
+      <div className="container">
       <div className="row">
         <div className="col-lg-6">
           <div className="card carta-uno">
@@ -57,7 +58,8 @@ function PaginaUno() {
         </div>
       </div>
       <p className="table-referencia">Tabla: Pd massa quis justo maximus rhoncus at in lacus finibus risus. Fuente: (AMRN,2018).</p>
-    </div>
+      </div>
+      </div>
   );
 }
 

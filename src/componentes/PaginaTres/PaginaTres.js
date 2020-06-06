@@ -4,9 +4,10 @@ import './PaginaTres.css';
 function PaginaTres() {
   return (
     <div className="container pagina-tres">
+    <div className="row">
       <div className="card">
         <img
-          className="img-practica"
+          className="img-practica" alt="#" 
           src="https://firebasestorage.googleapis.com/v0/b/pruebas-f9b47.appspot.com/o/Anotaci%C3%B3n%202020-06-04%20111309.png?alt=media&token=c0f4bfc2-1239-48f8-927a-fbf928168de9"
         />
         <div className="card-body card-tres">
@@ -41,10 +42,11 @@ function PaginaTres() {
             </li>
           </ul>
 
-          <a href="#" className="btn btn-primary">
+          <a href=".." className="btn btn-primary">
             Iniciar
           </a>
         </div>
+      </div>
       </div>
     </div>
   );
